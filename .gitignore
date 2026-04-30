@@ -1,0 +1,33 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+
+# User settings
+*.xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods (if not used)
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
