@@ -10,7 +10,7 @@ class CoinRemoteDataSource {
     
     private let network: NetworkManager
     
-    init(network: NetworkManager) {
+    init(network: NetworkManager = .shared) {
         self.network = network
     }
     
